@@ -8,13 +8,13 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.my.adpoymer</groupId>
-  <artifactId>tailor</artifactId>
-  <version>1.0.1</version>
+  <artifactId>beauty</artifactId>
+  <version>1.0.2</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.my.adpoymer</groupId>
-      <artifactId>beauty</artifactId>
+      <artifactId>tailor</artifactId>
       <version>1.0.1</version>
       <scope>compile</scope>
     </dependency>
