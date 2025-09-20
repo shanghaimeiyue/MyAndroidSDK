@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.my.adpoymer",
+    "module": "tailor",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tailor-1.0.0.aar",
+          "url": "tailor-1.0.0.aar",
+          "size": 56850,
+          "sha512": "18b87dea76c3afd1cf4da20d1ec609845822da974133ff0f1dfb7a8117171117bd4743e13b1161004150052a9cdf3e44a60f20ff35cf269e1148a755d92dbd3d",
+          "sha256": "4c246b163ba6e2c7167243af05296085ec5111814de35508c083e5c0384dd09e",
+          "sha1": "64061ad6a3d66e34f814ca6402cee58119137837",
+          "md5": "2c9398c689ef8672f1908c29f359f7c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tailor-1.0.0.aar",
+          "url": "tailor-1.0.0.aar",
+          "size": 56850,
+          "sha512": "18b87dea76c3afd1cf4da20d1ec609845822da974133ff0f1dfb7a8117171117bd4743e13b1161004150052a9cdf3e44a60f20ff35cf269e1148a755d92dbd3d",
+          "sha256": "4c246b163ba6e2c7167243af05296085ec5111814de35508c083e5c0384dd09e",
+          "sha1": "64061ad6a3d66e34f814ca6402cee58119137837",
+          "md5": "2c9398c689ef8672f1908c29f359f7c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tailor-1.0.0-sources.jar",
+          "url": "tailor-1.0.0-sources.jar",
+          "size": 49866,
+          "sha512": "c000929f19fc212db1fd055bcded03ec57bc45919226f619a2f1e12d8a6c6722cdb04d51287fe0a34d2910f695943e0ee7e7962b81a808109a4480feef3799ff",
+          "sha256": "9b3a0a034529533b11a23f0cf5f2a6b04413712d68ef3dfbd7aa2bbb05e9714b",
+          "sha1": "cd22a0d6b3e671ff2819ccdab9bbeb52e7423457",
+          "md5": "120a0f5460ad3e5d178be83e630a30a4"
+        }
+      ]
+    }
+  ]
+}
