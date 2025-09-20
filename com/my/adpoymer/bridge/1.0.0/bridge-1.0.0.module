@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.my.adpoymer",
+    "module": "bridge",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "bridge-1.0.0.aar",
+          "url": "bridge-1.0.0.aar",
+          "size": 57342,
+          "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
+          "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
+          "sha1": "08b9bb3f9fb3a24ef356ec9ae410c7557c442d7c",
+          "md5": "0f241c06eed8f517412cbdf37737670c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bridge-1.0.0.aar",
+          "url": "bridge-1.0.0.aar",
+          "size": 57342,
+          "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
+          "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
+          "sha1": "08b9bb3f9fb3a24ef356ec9ae410c7557c442d7c",
+          "md5": "0f241c06eed8f517412cbdf37737670c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bridge-1.0.0-sources.jar",
+          "url": "bridge-1.0.0-sources.jar",
+          "size": 50240,
+          "sha512": "c7fd3ff9011c3ce2fac21557c4de6c3101562e04b9cb0ddfb342b931cef7cc2afbcad434cfc753a07b4eb99d99107b3de49ced67062be505650440e5daaaadbb",
+          "sha256": "60bb1cb31800cc5a0257f98bbd74c30cf2d4f22e136bd67e2d190d90df541d75",
+          "sha1": "57ab75895e44363a1d9ea6f3f1d3bbe167e85f1b",
+          "md5": "823c01385403628d2bf57928ec3a9185"
+        }
+      ]
+    }
+  ]
+}
