@@ -22,15 +22,55 @@
         "org.gradle.libraryelements": "aar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": null,
+          "module": "hr-sdk_1.5.0.1_release",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "hr-sdk_1.5.0.1_release",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "cardview-v7",
+          "version": {
+            "requires": "21.0.0"
+          }
+        }
+      ],
       "files": [
         {
           "name": "tailor-1.0.1.aar",
           "url": "tailor-1.0.1.aar",
-          "size": 57208,
-          "sha512": "93dc1b14a6d094004d74a0e9a3d08c602e1918676f7c4e221f5f6da0f83a694f0dbe3b01031b53daf16e1df5ab32c36c3f0b71091c4b651342dbd747c15eab3c",
-          "sha256": "a0ea610e571db499a8c15437d7a8f1a95c9a14b27e09d12f2be6464a4f29875e",
-          "sha1": "716e649e2a6fcc9650e7d9f94f8a424e826c89b9",
-          "md5": "e30aec24c1540454b1fcc074027f3c39"
+          "size": 57342,
+          "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
+          "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
+          "sha1": "08b9bb3f9fb3a24ef356ec9ae410c7557c442d7c",
+          "md5": "0f241c06eed8f517412cbdf37737670c"
         }
       ]
     },
@@ -70,17 +110,55 @@
           "version": {
             "requires": "1.1.3"
           }
+        },
+        {
+          "group": null,
+          "module": "hr-sdk_1.5.0.1_release",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "hr-sdk_1.5.0.1_release",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "cardview-v7",
+          "version": {
+            "requires": "21.0.0"
+          }
         }
       ],
       "files": [
         {
           "name": "tailor-1.0.1.aar",
           "url": "tailor-1.0.1.aar",
-          "size": 57208,
-          "sha512": "93dc1b14a6d094004d74a0e9a3d08c602e1918676f7c4e221f5f6da0f83a694f0dbe3b01031b53daf16e1df5ab32c36c3f0b71091c4b651342dbd747c15eab3c",
-          "sha256": "a0ea610e571db499a8c15437d7a8f1a95c9a14b27e09d12f2be6464a4f29875e",
-          "sha1": "716e649e2a6fcc9650e7d9f94f8a424e826c89b9",
-          "md5": "e30aec24c1540454b1fcc074027f3c39"
+          "size": 57342,
+          "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
+          "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
+          "sha1": "08b9bb3f9fb3a24ef356ec9ae410c7557c442d7c",
+          "md5": "0f241c06eed8f517412cbdf37737670c"
         }
       ]
     },
@@ -96,11 +174,11 @@
         {
           "name": "tailor-1.0.1-sources.jar",
           "url": "tailor-1.0.1-sources.jar",
-          "size": 50159,
-          "sha512": "6300edfc1ec1a3d790fa48ae2896b184e2bc78546f9aef9c407992e58ef267cd96cc7acaec8f2fa9c4377ec98fc164710cd5f00a7d58cb0eb68f4f1921bf1aa2",
-          "sha256": "07bb45a8361fe79025bb2ea4643ba2ad6f67fd520603123978348fceac17ae73",
-          "sha1": "cad8fcc5899062ca2e65f7a05ccfe8106eb0f214",
-          "md5": "1777713cdc1acacd45b34d8b2437f11d"
+          "size": 50240,
+          "sha512": "c7fd3ff9011c3ce2fac21557c4de6c3101562e04b9cb0ddfb342b931cef7cc2afbcad434cfc753a07b4eb99d99107b3de49ced67062be505650440e5daaaadbb",
+          "sha256": "60bb1cb31800cc5a0257f98bbd74c30cf2d4f22e136bd67e2d190d90df541d75",
+          "sha1": "57ab75895e44363a1d9ea6f3f1d3bbe167e85f1b",
+          "md5": "823c01385403628d2bf57928ec3a9185"
         }
       ]
     }
