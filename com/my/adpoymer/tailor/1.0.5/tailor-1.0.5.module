@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.my.adpoymer",
-    "module": "bridge",
-    "version": "1.0.0",
+    "module": "tailor",
+    "version": "1.0.5",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -24,8 +24,8 @@
       },
       "files": [
         {
-          "name": "bridge-1.0.0.aar",
-          "url": "bridge-1.0.0.aar",
+          "name": "tailor-1.0.5.aar",
+          "url": "tailor-1.0.5.aar",
           "size": 57342,
           "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
           "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
@@ -74,8 +74,8 @@
       ],
       "files": [
         {
-          "name": "bridge-1.0.0.aar",
-          "url": "bridge-1.0.0.aar",
+          "name": "tailor-1.0.5.aar",
+          "url": "tailor-1.0.5.aar",
           "size": 57342,
           "sha512": "2471d95bf941c982f888a1a69a4c17ebc02bdbc8c198e9a23086c09300832c3a6dcddaa9b9f7b048cba7ddb9ab3e75aa7d603f1d08f41b7c9a95b3ffd46867d6",
           "sha256": "97178990b0c0527c886fdb2c79aa7be3f457cc27d458ca84405f1e398b961dc3",
@@ -94,8 +94,8 @@
       },
       "files": [
         {
-          "name": "bridge-1.0.0-sources.jar",
-          "url": "bridge-1.0.0-sources.jar",
+          "name": "tailor-1.0.5-sources.jar",
+          "url": "tailor-1.0.5-sources.jar",
           "size": 50240,
           "sha512": "c7fd3ff9011c3ce2fac21557c4de6c3101562e04b9cb0ddfb342b931cef7cc2afbcad434cfc753a07b4eb99d99107b3de49ced67062be505650440e5daaaadbb",
           "sha256": "60bb1cb31800cc5a0257f98bbd74c30cf2d4f22e136bd67e2d190d90df541d75",
