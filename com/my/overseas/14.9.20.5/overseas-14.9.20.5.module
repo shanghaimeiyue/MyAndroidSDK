@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.my",
+    "module": "overseas",
+    "version": "14.9.20.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "overseas-14.9.20.5.aar",
+          "url": "overseas-14.9.20.5.aar",
+          "size": 26165,
+          "sha512": "9981a5683a3797eb0ad089ce92638c1559ff1faac372c150148df910cf4f63ee7fc39727d8748afd8710b53f224e41e93c530012c264764e789d3aaa5325d6af",
+          "sha256": "f0aa4241d430f4d2ad527f742982cc583f9caea84058c161e1d8e615c804f72b",
+          "sha1": "265158ffb32ad75645dc9446979e9136e8eef4f2",
+          "md5": "ded8faba3dccb90b72dc62898be8760e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "overseas-14.9.20.5.aar",
+          "url": "overseas-14.9.20.5.aar",
+          "size": 26165,
+          "sha512": "9981a5683a3797eb0ad089ce92638c1559ff1faac372c150148df910cf4f63ee7fc39727d8748afd8710b53f224e41e93c530012c264764e789d3aaa5325d6af",
+          "sha256": "f0aa4241d430f4d2ad527f742982cc583f9caea84058c161e1d8e615c804f72b",
+          "sha1": "265158ffb32ad75645dc9446979e9136e8eef4f2",
+          "md5": "ded8faba3dccb90b72dc62898be8760e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "overseas-14.9.20.5-sources.jar",
+          "url": "overseas-14.9.20.5-sources.jar",
+          "size": 12123,
+          "sha512": "8bb67b4d805d9a535b91e5917ed334f40d7fe9911e431f39c697eb62157e66ba2df864f9c342beea71c99ff54bf224639bce5745fd778c5bcc0dbcd656132453",
+          "sha256": "695103d790ffdb0e35a08ac8f5525279bb1be56915dc79c362558cd1fd3001b0",
+          "sha1": "43992dc92f0e816bc3416832f043fdacf9182736",
+          "md5": "66b99ce110f510f68911ddc6c802c09a"
+        }
+      ]
+    }
+  ]
+}
